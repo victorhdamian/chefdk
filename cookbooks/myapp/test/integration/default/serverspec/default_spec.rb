@@ -22,3 +22,4 @@ end
 
 describe file('/var/www/html/index.html') do
 	it { should contain 'Hello'}
+end
